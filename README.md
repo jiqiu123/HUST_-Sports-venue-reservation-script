@@ -12,7 +12,7 @@
 - GUI 启动器：[gui_launcher.py](file:///d:/python/venv/%E9%A2%84%E7%BA%A6/gui_launcher.py)
 - 核心逻辑（CLI）：[main.py](file:///d:/python/venv/%E9%A2%84%E7%BA%A6/main.py)
 - 场地信息提取：从 HTML 中解析 pian 与场地名称映射 [extra_pian.py](file:///d:/python/venv/%E9%A2%84%E7%BA%A6/extra_pian/extra_pian.py)
-- 浏览器与驱动：项目会使用的是 Chrome浏览器与 chromedriver（捆绑资源）。请自行在本地安装Chorme浏览器，并下载好对应的chromedriver.exe放在项目目录下，项目会自动调用运行。
+- 浏览器与驱动：项目会使用的是 Chrome浏览器与 chromedriver（捆绑资源）。请自行在本地安装Chorme浏览器，并下载好对应的chromedriver.exe放在同main.py目录下，项目会自动调用运行。
 
 ## 环境要求
 - Windows 10/11
