@@ -1,0 +1,29 @@
+[
+    {
+        "domain": "pecg.hust.edu.cn",
+        "httpOnly": true,
+        "name": "BIGipServerpool-tyb-cggl-yysf",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": true,
+        "value": "302190764.36895.0000"
+    },
+    {
+        "domain": "pecg.hust.edu.cn",
+        "httpOnly": true,
+        "name": "BIGipServerpool-tyb-cggl-mh",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": true,
+        "value": "352522412.36895.0000"
+    },
+    {
+        "domain": "pecg.hust.edu.cn",
+        "httpOnly": true,
+        "name": "JSESSIONID",
+        "path": "/wescms",
+        "sameSite": "Lax",
+        "secure": false,
+        "value": "8399B9D77C228745B71636CA32BAA9B0"
+    }
+]

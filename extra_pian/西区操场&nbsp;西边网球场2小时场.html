@@ -1,0 +1,1074 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+
+
+
+
+
+
+<script type="text/javascript" src="/cggl/lib/js/jquery-3.7.0.min.js"></script>
+<script type="text/javascript" src="/cggl/lib/js/jquery-migrate-3.4.1.min.js"></script>
+<script type="text/javascript" src="/cggl/lib/js/jquery-migrate-1.4.1.min.js"></script>
+
+<script type="text/javascript">
+	$(function(){
+		var forms = $("form");
+		forms.each(function(){
+			$(this).append("<input class=\"token\" type=\"hidden\" name=\"token\" value=\"e4497ade28cbfac95c4f3b12356378f4\" >");
+		});
+	});
+</script>
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/cggl/lib/js/jquery-3.7.0.min.js"></script>
+<script type="text/javascript" src="/cggl/lib/js/jquery-migrate-3.4.1.min.js"></script>
+<script type="text/javascript" src="/cggl/lib/js/jquery-migrate-1.4.1.min.js"></script>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>华中科技大学体育场馆管理系统</title>
+
+		<style>
+.form-txt {
+	border: 0px;
+	width: 100px;
+	height: 30px;
+	font-size: 19px;
+	cursor: pointer;
+}
+
+.star_app {
+	margin-bottom: 20px;
+}
+
+.input_checked{
+	background-color: rgb(70, 159, 220) !important;
+}
+.stepModal{
+	display:none;
+}
+</style>
+	</head>
+	<body>
+
+		
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+
+
+
+
+
+
+<script type="text/javascript" src="/cggl/lib/js/jquery-3.7.0.min.js"></script>
+<script type="text/javascript" src="/cggl/lib/js/jquery-migrate-3.4.1.min.js"></script>
+<script type="text/javascript" src="/cggl/lib/js/jquery-migrate-1.4.1.min.js"></script>
+
+<script type="text/javascript">
+	$(function(){
+		var forms = $("form");
+		forms.each(function(){
+			$(this).append("<input class=\"token\" type=\"hidden\" name=\"token\" value=\"e4497ade28cbfac95c4f3b12356378f4\" >");
+		});
+	});
+</script>
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/cggl/lib/js/jquery-3.7.0.min.js"></script>
+<script type="text/javascript" src="/cggl/lib/js/jquery-migrate-3.4.1.min.js"></script>
+<script type="text/javascript" src="/cggl/lib/js/jquery-migrate-1.4.1.min.js"></script>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>华中科技大学体育场馆管理系统</title>
+<link rel="stylesheet" href="/cggl/css/css.css">
+<link rel="stylesheet" href="/cggl/lib/css/cg.min.css">
+<style>
+body {
+-moz-user-select: -moz-none;
+-moz-user-select: none;
+-o-user-select:none;
+-khtml-user-select:none;
+-webkit-user-select:none;
+-ms-user-select:none;
+user-select:none;	
+}
+
+</style>
+<script src="/cggl/lib/js/cg.min.js"></script>
+<script type="text/javascript" src="/cggl/lib/js/cg.min.js"></script>
+</head>
+<body>
+	<div class="width_full header">
+		<div class="margin_center width_1000 head">
+			<a href="/cggl/"><img class="fl" src="/cggl/images/logo.jpg" alt="logo"> </a>
+			<ul class="logo_state">
+				
+					<li >您好,<a href="#" style="color: #fff4c2;">李迅</a></li>
+					<li>|</li>
+					<li ><a href="/cggl/logout" class="logo_link">退出</a></li>
+				
+			</ul>
+			<div style="left:993.5px; top: 30px; display: none;" class="login-box" id="login_box">
+		     <div class="login-box-top" >
+		     	<div class="close" id="close_top">关闭</div>
+		         <form id="login_form" name="form" action="/cggl/login" method="post">
+		         	<input id="logintype" value="" type="hidden" name="type"/>
+		         	<span>账号 <input type="text" class="login-input" name="username" placeholder="请输入帐号" id="username" value=""></span>
+		             <span>密码 <input autocomplete="off" type="password" class="login-input" name="password" id="password"></span>
+		             <div class="login-button-box">
+		                 <input type="button"  class="login-submit" value="" onclick="javascript:submitInfo();"/>
+		             </div>
+		         <div>
+<input type="hidden" name="cg_csrf_token" value="320ab8f4-67b2-4ab3-8329-696875afff95" />
+</div></form>
+		     </div>
+		 </div>
+		 
+		</div>
+		<div class="nav2">
+			<div id="main">
+				
+					<ul class="width_1000 margin_center first-nav" >
+						
+							<li class="nav_current">
+								<a href="/cggl/front/yuyuexz?campus=0">场地预约-主校区</a>
+							</li>
+							<li >
+								<a href="/cggl/front/yuyuexz?campus=60622">场地预约-同济校区</a>
+							</li>
+							<li >
+								<a href="javascript:window.location.href='/cggl/front/huiyuandetail'">个人中心</a>
+							</li>
+							<li >
+								<a href="/cggl/front/tocomment" >我的投诉建议</a>
+							</li>
+						
+						
+					</ul>
+				
+				
+					
+				
+				</div>
+				<div id="geren">
+				
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$("#close_top").bind("click",function(){
+			var lg=$("#login_box");
+			lg.fadeOut(500);
+		});
+		$("#personalcenter").click(function(){ 
+		});
+		$("#homepage").bind("click",function(){ 
+		});
+		
+		$(".login_click").click(function(){
+			var lg=$("#login_box");
+			var text = $(this).find("a").text();
+			if(text == '场馆帐号'){
+				$("#logintype").val("1");
+			}else if(text == '管理登录'){
+				$("#logintype").val("2");				
+			}
+			lg.css({left:$(this).offset().left-lg.width()+70,top:$(this).offset().top+$(this).height()});
+			lg.fadeIn(500);
+		});
+	</script>
+	<script type="text/javascript">
+		function submitInfo() {
+			//var key1="f!v$s";
+			//var key2="K1*sS";
+			//console.log(1);
+			if(document.getElementById("psword").value.length!=32&&document.getElementById("psword").value!="") {
+				document.getElementById("psword").value=hex_md5(document.getElementById("psword").value);
+			}
+			document.forms["login_form"].submit();
+		}
+	</script>
+</body>
+</html>
+
+		<div class="margin_center width_1000 clearfix content">
+			<div class="content_left fl">
+				<h3 class="menu_title">
+					室内场地
+				</h3>
+				<ul class="menu_list">
+					
+						
+							
+								<li
+									>
+									<a href="/cggl/front/syqk?cdbh=45&out=1">·
+										光谷体育馆&nbsp;主馆羽...</a>
+								</li>
+
+							
+								<li
+									>
+									<a href="/cggl/front/syqk?cdbh=122&out=1">·
+										光谷体育馆&nbsp;乒乓球...</a>
+								</li>
+
+							
+						
+					
+						
+							
+						
+					
+						
+					
+						
+					
+						
+					
+						
+							
+								<li
+									>
+									<a href="/cggl/front/syqk?cdbh=69&out=1">·
+										西区体育馆&nbsp;羽毛球...</a>
+								</li>
+
+							
+								<li
+									>
+									<a href="/cggl/front/syqk?cdbh=124&out=1">·
+										西区体育馆&nbsp;乒乓球...</a>
+								</li>
+
+							
+						
+					
+						
+							
+								<li
+									>
+									<a href="/cggl/front/syqk?cdbh=96&out=1">·
+										游泳馆&nbsp;游泳池...</a>
+								</li>
+
+							
+								<li
+									>
+									<a href="/cggl/front/syqk?cdbh=117&out=1">·
+										游泳馆&nbsp;二楼羽...</a>
+								</li>
+
+							
+						
+					
+				</ul>
+
+				<h3 class="menu_title">
+					室外场地
+				</h3>
+				<ul class="menu_list">
+					
+						
+					
+						
+					
+						
+							
+
+								<li
+									>
+									<a href="/cggl/front/syqk?cdbh=74&out=1">·
+										东区操场&nbsp;韵苑网...</a>
+								</li>
+
+							
+
+								<li
+									>
+									<a href="/cggl/front/syqk?cdbh=127&out=1">·
+										东区操场&nbsp;匹克球...</a>
+								</li>
+
+							
+
+								<li
+									>
+									<a href="/cggl/front/syqk?cdbh=130&out=1">·
+										东区操场&nbsp;韵苑网...</a>
+								</li>
+
+							
+						
+					
+						
+							
+
+								<li
+									>
+									<a href="/cggl/front/syqk?cdbh=73&out=1">·
+										中心区操场&nbsp;沁苑网...</a>
+								</li>
+
+							
+
+								<li
+									>
+									<a href="/cggl/front/syqk?cdbh=75&out=1">·
+										中心区操场&nbsp;沙地网...</a>
+								</li>
+
+							
+
+								<li
+									>
+									<a href="/cggl/front/syqk?cdbh=128&out=1">·
+										中心区操场&nbsp;沙地网...</a>
+								</li>
+
+							
+
+								<li
+									>
+									<a href="/cggl/front/syqk?cdbh=129&out=1">·
+										中心区操场&nbsp;沁苑网...</a>
+								</li>
+
+							
+						
+					
+						
+							
+
+								<li
+									class="menu_current">
+									<a href="/cggl/front/syqk?cdbh=72&out=1">·
+										西区操场&nbsp;西边网...</a>
+								</li>
+
+							
+
+								<li
+									>
+									<a href="/cggl/front/syqk?cdbh=131&out=1">·
+										西区操场&nbsp;西边网...</a>
+								</li>
+
+							
+						
+					
+						
+					
+						
+					
+				</ul>
+			</div>
+			<div class="content_right fr">
+				<div style="text-align: center;" class="biaoti">
+					西区操场&nbsp;西边网球场2小时场
+				</div>
+				<ul class="step_menu">
+					<li class="dong step_menu1">
+						<span class="step1" style="">1</span>选择场地及时间
+					</li>
+					<li class="step_menu2">
+						<span class="step2" style="">2</span>预约登记表
+					</li>
+					<li class="step_menu3">
+						<span class="step3" style="">3</span>提交预约信息
+					</li>
+				</ul>
+				<div class="tab_content">
+					<div class="time_select">
+						<div class="pre_day"
+							onclick="window.location.href='/cggl/front/syqk?date=2025-12-28&type=-1&cdbh=72'"></div>
+						<div class="today2">
+							<input value="2025-12-28" readonly="readonly" name="rq" id="rq"
+								class="form-txt" />
+							
+								周日
+								
+								
+								
+								
+								
+								
+							
+							<span></span>
+						</div>
+						<div class="next_day"
+							onclick="window.location.href='/cggl/front/syqk?date=2025-12-28&type=1&cdbh=72'"></div>
+					</div>
+					<ul class="stateTip clearfix">
+						<li class="appointmented_font">
+							<span class="appointmented"></span> 已预约
+						</li>
+						<li class="appointmenting_font">
+							<span class="appointmentopen"></span>可预约
+						</li>
+					</ul>
+					<div class="tip">
+						当前可预约
+						<strong style="font-size:14px;">2025-12-28 - 2025-12-30</strong>
+						的场地，如遇学校大型活动，您的预约可能会被延后，如有疑问，可致电场馆中心询问。
+					</div>
+					<form id="command" class="syqkForm" action="/cggl/front/step2" method="post" onsubmit="return checkbox()">
+						<table border="0" width="95%">
+							<tr class="datagrid-thead" align="center">
+								<td colspan="2" style="text-align:left;"><strong>请选择需要预约的时间段：</strong></td>
+							</tr>
+							<tr class="datagrid-thead" align="center">
+								<td align="right" width="100px">时间：</td>
+								<td align="left">
+									<select style="width:120px;" name="starttime" id ="starttime" onchange="getSyqk(1);" >
+										
+											<option value="08:00:00" selected="selected">
+												08:00:00
+											</option>
+										
+											<option value="09:00:00" >
+												09:00:00
+											</option>
+										
+											<option value="10:00:00" >
+												10:00:00
+											</option>
+										
+											<option value="11:00:00" >
+												11:00:00
+											</option>
+										
+											<option value="12:00:00" >
+												12:00:00
+											</option>
+										
+											<option value="13:00:00" >
+												13:00:00
+											</option>
+										
+											<option value="14:00:00" >
+												14:00:00
+											</option>
+										
+											<option value="15:00:00" >
+												15:00:00
+											</option>
+										
+											<option value="16:00:00" >
+												16:00:00
+											</option>
+										
+											<option value="18:00:00" >
+												18:00:00
+											</option>
+										
+											<option value="20:00:00" >
+												20:00:00
+											</option>
+										
+									</select>
+									--
+									<select style="width:120px;" name="endtime" id ="endtime" onchange="getSyqk(2);" >
+										
+											<option value="09:00:00" selected="selected">
+												09:00:00
+											</option>
+										
+											<option value="10:00:00" >
+												10:00:00
+											</option>
+										
+											<option value="11:00:00" >
+												11:00:00
+											</option>
+										
+											<option value="12:00:00" >
+												12:00:00
+											</option>
+										
+											<option value="13:00:00" >
+												13:00:00
+											</option>
+										
+											<option value="14:00:00" >
+												14:00:00
+											</option>
+										
+											<option value="15:00:00" >
+												15:00:00
+											</option>
+										
+											<option value="16:00:00" >
+												16:00:00
+											</option>
+										
+											<option value="18:00:00" >
+												18:00:00
+											</option>
+										
+											<option value="20:00:00" >
+												20:00:00
+											</option>
+										
+											<option value="22:00:00" >
+												22:00:00
+											</option>
+										
+									</select>
+								</td>
+							</tr>
+							
+							
+								<tr class="datagrid-thead" align="center">
+									<td colspan="2" style="text-align:left;"><strong>请选择同伴：</strong></td>
+								</tr>
+								<tr class="datagrid-thead" align="center">
+									<td align="right">同伴身份：</td>
+									<td align="left">
+										<label><input type="radio" name="partnerCardtype" id="partnerCardType1"  value="1"/>&nbsp;学生&nbsp;&nbsp;&nbsp;</label>
+										<label><input type="radio" name="partnerCardtype" id="partnerCardType2"  value="2"/>&nbsp;教职工&nbsp;&nbsp;&nbsp;</label>
+										<label><input type="radio" name="partnerCardtype" id="partnerCardType3"  value="3"/>&nbsp;校外人员&nbsp;&nbsp;&nbsp;</label>
+									</td>
+								</tr>
+							
+							<tr>
+								<td colspan="2" align="right"><input style="background-color:#4caf50;border:0;padding:5px;font-size:12px;color:white;cursor:pointer;border-radius: 4px;" type="button" value="刷新" onclick="getajaxNew();"/></td>
+							</tr>
+						</table>
+						<div class="tableBox">
+							<table class="appointment_list" border="0" style="margin-top:20px;" >
+								<tr id="firsttr">
+								</tr>
+								
+									<tr>
+										
+												
+												
+												
+													
+													
+														<td align="center"></td>
+													
+												
+												
+										
+												
+												
+												
+													
+													
+														<td align="center"></td>
+													
+												
+												
+										
+												
+												
+													<td align="center" class="noAppointment getajax" title="西区操场&nbsp;西边网球场2小时场-3号球场"
+													pian="271" >
+													<input type='checkbox' name="choosetime"
+														style="display: none;" class='choosetime'
+														value="271" />
+														<div class="bgImage" style="/* border:1px solid black; */width: 120px;height: 60px;background-color: green;">
+															<div class="imageTitle">
+																<p style="color:#fff;padding:0;margin: 0;text-align: left;padding: 0 10px;">
+																	
+																		3号球场
+																	
+																	
+																</p>
+																<p style="color:#fff;padding:0;margin: 0;text-align: right;padding: 0 10px;" class="spacezt"></p>
+															</div>
+														</div>
+														
+													</td>
+												
+												
+										
+												
+												
+													<td align="center" class="noAppointment getajax" title="西区操场&nbsp;西边网球场2小时场-4号球场"
+													pian="272" >
+													<input type='checkbox' name="choosetime"
+														style="display: none;" class='choosetime'
+														value="272" />
+														<div class="bgImage" style="/* border:1px solid black; */width: 120px;height: 60px;background-color: green;">
+															<div class="imageTitle">
+																<p style="color:#fff;padding:0;margin: 0;text-align: left;padding: 0 10px;">
+																	
+																		4号球场
+																	
+																	
+																</p>
+																<p style="color:#fff;padding:0;margin: 0;text-align: right;padding: 0 10px;" class="spacezt"></p>
+															</div>
+														</div>
+														
+													</td>
+												
+												
+										
+												
+												
+												
+													
+													
+														<td align="center"></td>
+													
+												
+												
+										
+												
+												
+												
+													
+													
+														<td align="center"></td>
+													
+												
+												
+										
+												
+												
+												
+													
+													
+														<td align="center"></td>
+													
+												
+												
+										
+												
+												
+												
+													
+													
+														<td align="center"></td>
+													
+												
+												
+										
+												
+												
+												
+													
+													
+														<td align="center"></td>
+													
+												
+												
+										
+												
+												
+												
+													
+													
+														<td align="center"></td>
+													
+												
+												
+										
+												
+												
+												
+													
+													
+														<td align="center"></td>
+													
+												
+												
+										
+									</tr>
+								
+							</table>
+						</div>
+						<div class="getsure">
+
+						</div>
+						<div class="star_app">
+							<input type="hidden" name="changdibh" value="72" />
+							<input type="hidden" name="date" value="2025-12-28" />
+							
+								<input type="submit" value="预约" />
+							
+							
+						</div>
+					<div>
+<input type="hidden" name="cg_csrf_token" value="320ab8f4-67b2-4ab3-8329-696875afff95" />
+</div></form>
+				</div>
+			</div>
+		</div>
+		<div class="stepModal">
+		<div class="stepModalBg"></div>
+		<div class="stepModalMain" style="padding-bottom:20px">
+			<div class="stepFour sure_content">
+				<div class="stepModalHead clearfix">
+					<div class="fr">
+						<input value="取消" type="button" onclick="hidePartner();"/>
+						<input value="去添加" class="add" type="button" onclick="window.location.href='/cggl/front/huiyuandetail'"/>
+					</div>
+				</div>
+				<div class="datagrid stepFourMain" style="width: 100%; margin-top: 20px;">
+					<table width="100%" class="table">
+						<tr>
+							<td style="width:50px;text-align:center">
+								选择
+							</td>
+							<td>
+								姓名
+							</td>
+							<td>
+								学号
+							</td>
+							<td>
+								类型
+							</td>
+						</tr>
+						
+					</table>
+				</div>	
+			</div>
+		</div>
+	</div>
+		<script type="text/javascript" src="/cggl/lib/js/cg.min.js"></script>
+		<script type="text/javascript" src="/cggl/js/execute.min.js"></script>
+		<script type="text/javascript" src="/cggl/js/My97DatePicker/WdatePicker.js"></script>
+		
+
+
+
+
+
+
+<div>
+	<div class="footer_box" style="margin-top: 66px;">
+    	<div class="copyright">
+    	通讯地址：湖北省武汉市洪山区珞喻路1037号&nbsp;&nbsp;  邮编：430074&nbsp;&nbsp; 联系电话：027-87556407
+    	&nbsp;&nbsp;技术支持：<a href="http://www.chingo.cn/" style="color: white;">创高软件</a>
+    	&nbsp;&nbsp;
+    		
+    	</div>
+    </div>
+</div>
+
+<script type="text/javascript">
+	$(function(){
+		var height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+		$('.content').css("height", height - 260);
+	});
+
+	window.onresize = function(){
+		var height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+		$('.content').css("height", height - 260);
+		}
+</script>
+		<script type="text/javascript">
+	
+	function checkbox(){
+		var spaceQty = '2' ;
+		var ischoose = false;
+		var notcontinuitychoose = true;
+		var count = 0;
+		var index = 0;
+		var lastindex = 0;
+		var starttime=$("#starttime").val();
+		var endtime=$("#endtime").val();
+		var partNo=$('#partnerSchoolNo').val();
+		var partName=$('#partnerName').val();
+		var partType=$("input[type='radio']:checked").val();
+		$(".choosetime").each(function(){
+			if($(this).prop("checked")){
+				ischoose = true;
+				count = count + 1;
+			}
+		});
+		if(starttime<"08:00:00"){
+			alert("开始时间不能低于开放时间！");
+			return false;
+		}
+		if(endtime>"22:00:00"){
+			alert("结束时间不能超过关闭时间！");
+			return false;
+		}
+		if(starttime>=endtime){
+			alert("开始时间不能大于结束时间！");
+			return false;
+		}
+		if(count>1){
+			alert("只能选择一个场地！");
+			return false;
+		}
+		if(!ischoose){
+			alert("请选择场地（如无法选择，说明当前时段该场地不可预约或已约满，请选择其他时段场地）");
+			return false;
+		}
+		
+		if(partType==undefined){
+			alert("请先选择同伴身份");
+			return false;
+		}
+		if(partType!='3'){
+			if(partNo==""){
+				alert("请填写同伴学工号或卡号");
+				return false;
+			}
+			if(partName==""){
+				alert("请填写同伴姓名");
+				return false;
+			}
+		}
+		
+		return true;
+	}
+
+	// $(document).ready(function() {
+	//     $('input[type=radio][name=partnerCardtype]').change(function() {
+	//         if (this.value == '3') {
+	//            $(".xsinfo").hide();
+	//         }
+	//         else {
+	//             $(".xsinfo").show();
+	//         }
+	//     });
+	// });
+	
+	function checkcontinuity(lastindex, index, sl){
+		//console.log(lastindex + "," + index + "," + sl);
+		if(lastindex == 0){
+			return true;
+		}
+
+		if(index - lastindex == sl){
+			return true;
+		}
+
+		return false;
+	}
+	$("#rq").cgCalendar({
+		format:"yyyy-mm-dd",
+		showTimePanel:false,
+		click:function(){
+			$.cgForm.hideTips($("#rq1"));			
+			window.location.href='/cggl/front/syqk?cdbh=72&date='+$("#rq").val(); 	
+		}
+	});
+
+	$(function(){
+		$("td").each(function(){
+			var flag = $(this).find("input").is($(":checked"));
+			if(flag){
+				$(this).addClass("input_checked");
+			}
+		});
+		$("td.appointmentopen").live("click", function(){
+			var flag = $(this).find("input").is($(":checked"));
+			if(flag){
+				$(this).find("input").removeAttr("checked");
+				$(this).removeClass("input_checked");	
+			}else{
+				$(".appointment_list").find("td").removeClass("input_checked");	
+				$(".appointment_list").find("input").removeAttr("checked");
+				$(this).find("input").attr("checked", "checked");
+				$(this).addClass("input_checked");
+			}
+		});
+	})
+
+	function getajaxNew(){
+		var date = "2025-12-28";
+		var toyuyue="1";
+		//var all = $("td.noAppointment");
+        var all = $("td.getajax");
+		var changdibh = "72";
+		var data = "";
+        all.find("input").removeAttr("checked");
+        all.removeClass("input_checked");
+		all.each(function(){
+			var pian = $(this).attr("pian");
+			var shijiand =$("#starttime").val()+"-"+$("#endtime").val();
+			data += pian + "@" + shijiand + ",";
+		});
+		var suburl = "/cggl/front/ajax/getsyzt";
+		$.ajax({
+			 type: "post",
+             url: suburl,
+             data: { "changdibh":changdibh, "data" : data,"date":date,"time":getCurrentTime(), "token": "e4497ade28cbfac95c4f3b12356378f4"},
+			 dataType: "json",
+			 success: function(data){
+            	var token = data[0].token;
+            	if(data[0].token != ""){
+					updateToken(token);
+				}
+				for(var i = 0; i < data[0].message.length; i++){
+					var message = data[0].message[i];
+					//console.log(message);
+					var $td = $("[pian='" + message.pian + "']");
+					$td.removeClass("appointmented");
+                    $td.removeClass("noAppointment");
+                    $td.removeClass("appointmentopen");
+                    $td.removeClass("appointmenting");
+					if(message.zt == 2){
+						//已预约
+						//var titles=$td.title;
+						var titles=$td.attr('title');
+						$td.attr('title',titles +"("+ message.shijiand+")");
+						$td.addClass("appointmented getajax");
+						$td.find(".bgImg").attr("src", "/cggl/uploads/pictures/72.png");
+						$td.find(".spacezt").html("已被预约");
+					}else if(message.zt == 21){
+						//已被预约满
+						var titles=$td.attr('title');
+						$td.attr('title',titles +"("+ message.shijiand+")");
+						$td.addClass("appointmented getajax");
+						$td.find(".bgImg").attr("src", "/cggl/uploads/pictures/72.png");
+						$td.find(".spacezt").html("已约满");
+					}else if(message.zt == 4){
+						//不开放
+						$td.addClass("appointmented getajax");
+						$td.find(".bgImg").attr("src", "/cggl/uploads/pictures/72.png");
+						$td.find(".spacezt").html("已被预约");
+						
+					}else if(message.zt == 41){
+						//不开放
+						$td.addClass("appointmented getajax");
+						$td.find(".bgImg").attr("src", "/cggl/uploads/pictures/72.png");
+						$td.find(".spacezt").html("不开放");
+					}else if(message.zt == 1){
+						//可预约
+						$td.addClass("appointmentopen getajax");
+						$td.find(".bgImg").attr("src", "/cggl/uploads/pictures/72.png");
+						$td.find(".spacezt").html("可预约");
+					}else if(message.zt == 3){
+						//使用中
+						$td.addClass("appointmenting getajax");
+						$td.find(".bgImg").attr("src", "/cggl/uploads/pictures/72.png");
+						$td.find(".spacezt").html("使用中");
+					}else if(message.zt == 5){
+                        //使用中
+                        $td.addClass("appointmenting getajax");
+                        $td.find(".bgImg").attr("src", "/cggl/uploads/pictures/72.png");
+                        $td.find(".spacezt").html("预约中");
+                    }
+					if(toyuyue==''){
+						$td.find(".spacezt").html("不可预约");	
+					}
+				}
+    		 }
+     	});
+	}
+	
+		$(function(){
+			showYuyuexz();
+		});
+		function showYuyuexz(){
+			var cdbh = "72";
+			var url = "/cggl/front/getcdyuyuexz?cdbh=" + cdbh;
+			dialog = $.fn.cgDialog.init({
+				href:url,
+				id:'yuyuexz_dialog1',
+				iframe:true,
+				width: 900,
+				height:800,
+				maxHeight:1200,
+				icon:"",
+				title: "场地预约须知",
+				buttons:[]
+			});
+		}
+	
+
+	$(function(){
+		getajaxNew();
+	});
+	//setInterval("getajax()",10000);
+	function bindfunction(){
+		$(".choosetime").bind("click",function(){
+				var td = $(this).parent("td");
+				var pian = $(td).attr("pian");
+				var shijiand = $("#starttime").val()+"-"+$("#endtime").val();
+				var date = "2025-12-28";
+				var changdibh = "";
+				var changdimc = "";
+			if($(this).prop("checked")){
+				var str = "<span clas='surebox' id='"+date+shijiand+pian+"'><input type='checkbox' name=''/>"+date+"&nbsp;"+shijiand+"&nbsp;"+changdimc+"第"+pian+"片</span>";
+				$(".getsure").append(str);
+			}else{
+				var id = date+shijiand+pian;
+				$("#"+id).remove();
+			}
+		});
+	}
+	//bindfunction();
+	/*$(".appointment_list td").bind("mouseover",function(){
+		$(this).parent("tr").find("td").first().css("background-color","#FFBF80");
+		$("#firsttr").find("th").eq($(this).index()).css("background-color","#FFBF80");
+	});
+	$(".appointment_list td").bind("mouseout",function(){
+		$(this).parent("tr").find("td").first().css("background-color","");
+		$("#firsttr").find("th").eq($(this).index()).css("background-color",""); 
+	});*/
+
+	function updateToken(token){
+		$("form .token").val(token);
+	}
+	function getSyqk(type){
+		if (type == 1) {
+			$('#endtime').prop('selectedIndex', $("#starttime").prop('selectedIndex'));
+		}else if (type == 2) {
+			$('#starttime').prop('selectedIndex', $("#endtime").prop('selectedIndex'));
+		}
+		getSyqkAll();
+	}
+	function getSyqkAll(){
+		var starttime=$("#starttime").val();
+		var endtime=$("#endtime").val();
+		var date=$('#rq').val();
+		window.location.href="/cggl/front/syqk?cdbh=72&date="+date+"&starttime="+starttime+"&endtime="+endtime;
+	}
+	
+	function showPartner(){
+		$(".stepModal").css("display","block");
+	}
+	function hidePartner(){
+		$(".stepModal").css("display","none");
+	}
+	
+	function putPartner(passwd,Name,schoolno,type){
+		$("#partnerSchoolNo").val(schoolno);
+		$("#partnerName").val(Name);
+		$("#partnerPwd").val(passwd);
+		if(type=='1'){
+			$("#partnerCardType1").attr("checked","checked");
+		}else if(type=='2'){
+			$("#partnerCardType2").attr("checked","checked");
+		}
+		$(".stepModal").css("display","none");
+	}
+</script>
+	</body>
+</html>
